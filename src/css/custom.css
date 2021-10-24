@@ -1,19 +1,25 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #f29f05;
+  --ifm-color-primary-dark: #da8f05;
+  --ifm-color-primary-darker: #ce8704;
+  --ifm-color-primary-darkest: #a96f04;
+  --ifm-color-primary-light: #faaa16;
+  --ifm-color-primary-lighter: #faae22;
+  --ifm-color-primary-lightest: #fbbc46;
+  --ifm-color-secondary: #23059f;
+  --ifm-color-secondary-dark: #1f058f;
+  --ifm-color-secondary-darker: #1e0487;
+  --ifm-color-secondary-darkest: #18046f;
+  --ifm-color-secondary-light: #2606af;
+  --ifm-color-secondary-lighter: #2806b7;
+  --ifm-color-secondary-lightest: #2d07cf;
   --ifm-code-font-size: 95%;
+}
+
+body {
+  font-family: 'Inter', 'sans-serif';
 }
 
 .docusaurus-highlight-code-line {
@@ -25,4 +31,8 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.button {
+
 }
