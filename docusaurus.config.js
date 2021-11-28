@@ -33,15 +33,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
-        title: 'Sendex Docs',
+        title: 'Docs',
         logo: {
           alt: 'Sendex Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
-            href: '/',
+            href: 'https://sendexapi.com',
             label: 'Home',
             position: 'left'
           },
@@ -49,7 +54,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'introduction',
             position: 'left',
-            label: 'Documentation',
+            label: 'Intro',
           },
           {
             href: 'https://github.com/hadlow/sendex',
@@ -59,14 +64,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Intro to Sendex',
                 to: '/',
+              },
+              {
+                label: 'Getting Started',
+                to: '/getting-started',
               },
             ],
           },
