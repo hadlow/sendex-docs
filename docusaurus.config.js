@@ -77,6 +77,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label: 'Getting Started',
                 to: '/getting-started/installing-sendex',
               },
+              {
+                label: 'A deeper dive',
+                to: '/a-deeper-dive/request-configuration',
+              },
             ],
           },
           {
