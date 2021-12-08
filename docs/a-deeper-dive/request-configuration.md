@@ -23,7 +23,7 @@ The following HTTP methods are currently available:
 
 ## Using environment variables
 
-Environment variables can be used in request configuration files. Anything in your local `.env` file is accessible in require YAML by using the following syntax:
+Environment variables can be used in request configuration files as well as the `.sendex.yml` configuration file. Anything in your local `.env` file is accessible in require YAML by using the following syntax:
 `${YOUR_ENV_VAR}`
 Where YOUR_ENV_VAR matches the name of the environment variable in `.env`.
 
